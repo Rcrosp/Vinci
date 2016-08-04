@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54C880761D4F440D002362A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C880751D4F440D002362A5 /* AppDelegate.swift */; };
+		54C8807B1D4F440D002362A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C880791D4F440D002362A5 /* Main.storyboard */; };
+		54C8807D1D4F440D002362A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C8807C1D4F440D002362A5 /* Assets.xcassets */; };
+		54C880801D4F440D002362A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C8807E1D4F440D002362A5 /* LaunchScreen.storyboard */; };
+		54C8808B1D4F440D002362A5 /* VinciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8808A1D4F440D002362A5 /* VinciTests.swift */; };
+		54C880961D4F440D002362A5 /* VinciUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C880951D4F440D002362A5 /* VinciUITests.swift */; };
+		54E0D11C1D51C7930062F70F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E0D11B1D51C7930062F70F /* MainViewController.swift */; };
+		54E0D1201D51CB130062F70F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E0D11F1D51CB130062F70F /* Home.storyboard */; };
+		54E0D1241D51CCD10062F70F /* Person.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E0D1231D51CCD10062F70F /* Person.storyboard */; };
+		54E0D1271D51D13B0062F70F /* Other.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E0D1261D51D13B0062F70F /* Other.storyboard */; };
+		54E0D12A1D5213B00062F70F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E0D1291D5213B00062F70F /* BaseViewController.swift */; };
+		54E0D12C1D5214000062F70F /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E0D12B1D5214000062F70F /* OtherViewController.swift */; };
+		54E0D12E1D52DF040062F70F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E0D12D1D52DF040062F70F /* HomeViewController.swift */; };
+		54E0D1301D52DF270062F70F /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E0D12F1D52DF270062F70F /* PersonViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54C880871D4F440D002362A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C8806A1D4F440D002362A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C880711D4F440D002362A5;
+			remoteInfo = Vinci;
+		};
+		54C880921D4F440D002362A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C8806A1D4F440D002362A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C880711D4F440D002362A5;
+			remoteInfo = Vinci;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54C880721D4F440D002362A5 /* Vinci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vinci.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C880751D4F440D002362A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54C8807A1D4F440D002362A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54C8807C1D4F440D002362A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54C8807F1D4F440D002362A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54C880811D4F440D002362A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C880861D4F440D002362A5 /* VinciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C8808A1D4F440D002362A5 /* VinciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinciTests.swift; sourceTree = "<group>"; };
+		54C8808C1D4F440D002362A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C880911D4F440D002362A5 /* VinciUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinciUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C880951D4F440D002362A5 /* VinciUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinciUITests.swift; sourceTree = "<group>"; };
+		54C880971D4F440D002362A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E0D11B1D51C7930062F70F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		54E0D11F1D51CB130062F70F /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		54E0D1231D51CCD10062F70F /* Person.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Person.storyboard; sourceTree = "<group>"; };
+		54E0D1261D51D13B0062F70F /* Other.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Other.storyboard; sourceTree = "<group>"; };
+		54E0D1291D5213B00062F70F /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		54E0D12B1D5214000062F70F /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		54E0D12D1D52DF040062F70F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		54E0D12F1D52DF270062F70F /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54C8806F1D4F440D002362A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C880831D4F440D002362A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C8808E1D4F440D002362A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54C880691D4F440D002362A5 = {
+			isa = PBXGroup;
+			children = (
+				54C880741D4F440D002362A5 /* Vinci */,
+				54C880891D4F440D002362A5 /* VinciTests */,
+				54C880941D4F440D002362A5 /* VinciUITests */,
+				54C880731D4F440D002362A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54C880731D4F440D002362A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54C880721D4F440D002362A5 /* Vinci.app */,
+				54C880861D4F440D002362A5 /* VinciTests.xctest */,
+				54C880911D4F440D002362A5 /* VinciUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54C880741D4F440D002362A5 /* Vinci */ = {
+			isa = PBXGroup;
+			children = (
+				54C880A91D519E8F002362A5 /* Classes */,
+				54C880751D4F440D002362A5 /* AppDelegate.swift */,
+				54C880791D4F440D002362A5 /* Main.storyboard */,
+				54C8807C1D4F440D002362A5 /* Assets.xcassets */,
+				54C8807E1D4F440D002362A5 /* LaunchScreen.storyboard */,
+				54C880811D4F440D002362A5 /* Info.plist */,
+			);
+			path = Vinci;
+			sourceTree = "<group>";
+		};
+		54C880891D4F440D002362A5 /* VinciTests */ = {
+			isa = PBXGroup;
+			children = (
+				54C8808A1D4F440D002362A5 /* VinciTests.swift */,
+				54C8808C1D4F440D002362A5 /* Info.plist */,
+			);
+			path = VinciTests;
+			sourceTree = "<group>";
+		};
+		54C880941D4F440D002362A5 /* VinciUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54C880951D4F440D002362A5 /* VinciUITests.swift */,
+				54C880971D4F440D002362A5 /* Info.plist */,
+			);
+			path = VinciUITests;
+			sourceTree = "<group>";
+		};
+		54C880A91D519E8F002362A5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				54E0D1251D51D1170062F70F /* Other */,
+				54E0D11E1D51C9700062F70F /* Home */,
+				54E0D11D1D51C8D10062F70F /* Person */,
+				54C880AA1D51C6E9002362A5 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		54C880AA1D51C6E9002362A5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				54E0D1281D5212D30062F70F /* Visitor */,
+				54E0D11B1D51C7930062F70F /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		54E0D11D1D51C8D10062F70F /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				54E0D1231D51CCD10062F70F /* Person.storyboard */,
+				54E0D12F1D52DF270062F70F /* PersonViewController.swift */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		54E0D11E1D51C9700062F70F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				54E0D11F1D51CB130062F70F /* Home.storyboard */,
+				54E0D12D1D52DF040062F70F /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		54E0D1251D51D1170062F70F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				54E0D1261D51D13B0062F70F /* Other.storyboard */,
+				54E0D12B1D5214000062F70F /* OtherViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		54E0D1281D5212D30062F70F /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				54E0D1291D5213B00062F70F /* BaseViewController.swift */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54C880711D4F440D002362A5 /* Vinci */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C8809A1D4F440D002362A5 /* Build configuration list for PBXNativeTarget "Vinci" */;
+			buildPhases = (
+				54C8806E1D4F440D002362A5 /* Sources */,
+				54C8806F1D4F440D002362A5 /* Frameworks */,
+				54C880701D4F440D002362A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vinci;
+			productName = Vinci;
+			productReference = 54C880721D4F440D002362A5 /* Vinci.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54C880851D4F440D002362A5 /* VinciTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C8809D1D4F440D002362A5 /* Build configuration list for PBXNativeTarget "VinciTests" */;
+			buildPhases = (
+				54C880821D4F440D002362A5 /* Sources */,
+				54C880831D4F440D002362A5 /* Frameworks */,
+				54C880841D4F440D002362A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C880881D4F440D002362A5 /* PBXTargetDependency */,
+			);
+			name = VinciTests;
+			productName = VinciTests;
+			productReference = 54C880861D4F440D002362A5 /* VinciTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54C880901D4F440D002362A5 /* VinciUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C880A01D4F440D002362A5 /* Build configuration list for PBXNativeTarget "VinciUITests" */;
+			buildPhases = (
+				54C8808D1D4F440D002362A5 /* Sources */,
+				54C8808E1D4F440D002362A5 /* Frameworks */,
+				54C8808F1D4F440D002362A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C880931D4F440D002362A5 /* PBXTargetDependency */,
+			);
+			name = VinciUITests;
+			productName = VinciUITests;
+			productReference = 54C880911D4F440D002362A5 /* VinciUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54C8806A1D4F440D002362A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Aplan;
+				TargetAttributes = {
+					54C880711D4F440D002362A5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					54C880851D4F440D002362A5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 54C880711D4F440D002362A5;
+					};
+					54C880901D4F440D002362A5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 54C880711D4F440D002362A5;
+					};
+				};
+			};
+			buildConfigurationList = 54C8806D1D4F440D002362A5 /* Build configuration list for PBXProject "Vinci" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54C880691D4F440D002362A5;
+			productRefGroup = 54C880731D4F440D002362A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54C880711D4F440D002362A5 /* Vinci */,
+				54C880851D4F440D002362A5 /* VinciTests */,
+				54C880901D4F440D002362A5 /* VinciUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54C880701D4F440D002362A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C880801D4F440D002362A5 /* LaunchScreen.storyboard in Resources */,
+				54C8807D1D4F440D002362A5 /* Assets.xcassets in Resources */,
+				54C8807B1D4F440D002362A5 /* Main.storyboard in Resources */,
+				54E0D1201D51CB130062F70F /* Home.storyboard in Resources */,
+				54E0D1241D51CCD10062F70F /* Person.storyboard in Resources */,
+				54E0D1271D51D13B0062F70F /* Other.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C880841D4F440D002362A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C8808F1D4F440D002362A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54C8806E1D4F440D002362A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E0D12E1D52DF040062F70F /* HomeViewController.swift in Sources */,
+				54E0D1301D52DF270062F70F /* PersonViewController.swift in Sources */,
+				54C880761D4F440D002362A5 /* AppDelegate.swift in Sources */,
+				54E0D12C1D5214000062F70F /* OtherViewController.swift in Sources */,
+				54E0D11C1D51C7930062F70F /* MainViewController.swift in Sources */,
+				54E0D12A1D5213B00062F70F /* BaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C880821D4F440D002362A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C8808B1D4F440D002362A5 /* VinciTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C8808D1D4F440D002362A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C880961D4F440D002362A5 /* VinciUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54C880881D4F440D002362A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C880711D4F440D002362A5 /* Vinci */;
+			targetProxy = 54C880871D4F440D002362A5 /* PBXContainerItemProxy */;
+		};
+		54C880931D4F440D002362A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C880711D4F440D002362A5 /* Vinci */;
+			targetProxy = 54C880921D4F440D002362A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54C880791D4F440D002362A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C8807A1D4F440D002362A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54C8807E1D4F440D002362A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C8807F1D4F440D002362A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54C880981D4F440D002362A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54C880991D4F440D002362A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54C8809B1D4F440D002362A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vinci/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vinci.Vinci;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54C8809C1D4F440D002362A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vinci/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vinci.Vinci;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54C8809E1D4F440D002362A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VinciTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vinci.VinciTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vinci.app/Vinci";
+			};
+			name = Debug;
+		};
+		54C8809F1D4F440D002362A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VinciTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vinci.VinciTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vinci.app/Vinci";
+			};
+			name = Release;
+		};
+		54C880A11D4F440D002362A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VinciUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vinci.VinciUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vinci;
+			};
+			name = Debug;
+		};
+		54C880A21D4F440D002362A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VinciUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vinci.VinciUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vinci;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54C8806D1D4F440D002362A5 /* Build configuration list for PBXProject "Vinci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C880981D4F440D002362A5 /* Debug */,
+				54C880991D4F440D002362A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C8809A1D4F440D002362A5 /* Build configuration list for PBXNativeTarget "Vinci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C8809B1D4F440D002362A5 /* Debug */,
+				54C8809C1D4F440D002362A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C8809D1D4F440D002362A5 /* Build configuration list for PBXNativeTarget "VinciTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C8809E1D4F440D002362A5 /* Debug */,
+				54C8809F1D4F440D002362A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C880A01D4F440D002362A5 /* Build configuration list for PBXNativeTarget "VinciUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C880A11D4F440D002362A5 /* Debug */,
+				54C880A21D4F440D002362A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54C8806A1D4F440D002362A5 /* Project object */;
+}
